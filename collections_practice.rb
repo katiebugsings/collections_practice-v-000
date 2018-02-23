@@ -21,7 +21,7 @@ end
 
 def kesha_maker(array)
   for i in 0...array.length
-    array[i][2] = "$"
+    array [i][2] = "$"
   end
-  arr
+  array
 end
