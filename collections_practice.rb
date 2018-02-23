@@ -20,8 +20,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  for i in 0...arr.length
-    arr[i][2] = "$"
+  for i in 0...array.length
+    array[i][2] = "$"
   end
   arr
 end
